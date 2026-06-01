@@ -1,0 +1,9 @@
+{
+  "active_project": "small-ad-agency",
+  "current_phase": "ops-foundation",
+  "current_branch": "setup/ops-foundation",
+  "last_completed_gate": null,
+  "next_task": "create initial ops foundation files",
+  "blocked": false,
+  "requires_human_review": true
+}

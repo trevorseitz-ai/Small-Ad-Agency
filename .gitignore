@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.DS_Store?
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Generated outputs
+dist/*.pdf
+dist/*.epub
+dist/*.zip

@@ -1,0 +1,20 @@
+{
+  "task_id": "TSK-000",
+  "project_id": "small-ad-agency",
+  "phase": "ops-foundation",
+  "agent_role": "role-name",
+  "branch": "task/branch-name",
+  "status": "pending",
+  "allowed_files": [],
+  "forbidden_files": [],
+  "allowed_actions": [],
+  "forbidden_actions": [],
+  "requires_report_only_first": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "success_criteria": [],
+  "commands_to_run": [],
+  "expected_output": "",
+  "human_review_required": true
+}
