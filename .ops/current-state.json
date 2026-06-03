@@ -1,9 +1,9 @@
 {
   "active_project": "small-ad-agency",
-  "current_phase": "ops-foundation",
-  "current_branch": "setup/ops-foundation",
-  "last_completed_gate": null,
-  "next_task": "create initial ops foundation files",
+  "current_phase": "task-queue-v1",
+  "current_branch": "ops/task-queue-v1",
+  "last_completed_gate": "Playbook v1",
+  "next_task": "TASK-001: Define agency scope and first product lane",
   "blocked": false,
   "requires_human_review": true
 }
