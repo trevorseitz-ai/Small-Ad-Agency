@@ -1,0 +1,69 @@
+{
+  "task_id": "TASK-001",
+  "project_id": "small-ad-agency",
+  "phase": "agency-scope",
+  "agent_role": "orchestrator",
+  "branch": "strategy/agency-scope",
+  "status": "pending",
+  "risk_level": "low",
+  "allowed_files": [
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    "strategy/agency-scope.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-001-define-agency-scope.json"
+  ],
+  "forbidden_files": [
+    "README.md",
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json"
+  ],
+  "source_files": [
+    ".ops/agent-playbook.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-001-define-agency-scope.json"
+  ],
+  "allowed_actions": [
+    "create strategy/agency-scope.md",
+    "update current-state",
+    "update gate-log",
+    "report diff",
+    "report status",
+    "update task queue status",
+    "update task file status"
+  ],
+  "forbidden_actions": [
+    "create scripts",
+    "install packages",
+    "generate assets",
+    "edit README",
+    "edit playbook",
+    "commit without approval",
+    "merge without approval"
+  ],
+  "requires_report_only_first": true,
+  "report_required": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "diff_required": true,
+  "status_required": true,
+  "pr_required": true,
+  "success_criteria": [
+    "Strategy file identifies the agency's first product lane",
+    "Strategy file defines what the agency will and will not do in POC stage",
+    "Strategy file defines the preferred model/tool usage split",
+    "Strategy file defines the first 3 gates after ops foundation",
+    "No scripts or generated assets are created"
+  ],
+  "commands_to_run": [
+    "git status",
+    "git diff --unified=220 -- .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-001-define-agency-scope.json strategy/agency-scope.md"
+  ],
+  "expected_output": "A report-only plan first. After approval, a strategy/agency-scope.md file and updated ops state.",
+  "rollback_plan": "Revert .ops/task-queue.json, .ops/tasks/TASK-001-define-agency-scope.json, .ops/current-state.json, .ops/gate-log.md, and strategy/agency-scope.md.",
+  "human_review_required": true,
+  "notes": "This task is designed to test whether the ops system can guide an agent through a real strategy task without skipping gates."
+}
