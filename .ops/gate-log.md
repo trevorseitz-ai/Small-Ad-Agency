@@ -13,6 +13,11 @@
 - **Notes**: Strengthening agent rules before adding workflow automation.
 
 ### Gate: Task Queue v1
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-queue-v1`
 - **Notes**: Creating first reusable task queue item for agent-guided work.
+
+### Gate: Agency Scope
+- **Status**: In Review
+- **Branch**: `strategy/agency-scope`
+- **Notes**: Strategy file drafted for professional mini guide/workbook/manual product lane.
