@@ -4,7 +4,7 @@
   "phase": "agency-scope",
   "agent_role": "orchestrator",
   "branch": "strategy/agency-scope",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "low",
   "allowed_files": [
     ".ops/current-state.json",
@@ -65,5 +65,5 @@
   "expected_output": "A report-only plan first. After approval, a strategy/agency-scope.md file and updated ops state.",
   "rollback_plan": "Revert .ops/task-queue.json, .ops/tasks/TASK-001-define-agency-scope.json, .ops/current-state.json, .ops/gate-log.md, and strategy/agency-scope.md.",
   "human_review_required": true,
-  "notes": "This task is designed to test whether the ops system can guide an agent through a real strategy task without skipping gates."
+  "notes": "The edit phase is complete and awaiting human review."
 }

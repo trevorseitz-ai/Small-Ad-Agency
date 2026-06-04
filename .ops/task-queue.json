@@ -2,7 +2,7 @@
   {
     "task_id": "TASK-001",
     "title": "Define agency scope and first product lane",
-    "status": "pending",
+    "status": "in_review",
     "agent_role": "orchestrator",
     "branch": "strategy/agency-scope",
     "requires_human_review": true
