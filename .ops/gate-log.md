@@ -28,6 +28,11 @@
 - **Notes**: Defining the next task card before scaffold creation.
 
 ### Gate: Product Scaffold
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `scaffold/product-system-v1`
 - **Notes**: Reusable product folder and template scaffold created for professional mini guide/workbook/manual products.
+
+### Gate: First Product Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-003-first-product`
+- **Notes**: Defining the next task card before creating the first real AI Tool Survival Manual product folder.

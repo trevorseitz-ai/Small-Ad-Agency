@@ -10,9 +10,17 @@
   {
     "task_id": "TASK-002",
     "title": "Create reusable product scaffold",
-    "status": "in_review",
+    "status": "completed",
     "agent_role": "repo-worker",
     "branch": "scaffold/product-system-v1",
+    "requires_human_review": true
+  },
+  {
+    "task_id": "TASK-003",
+    "title": "Create first AI Tool Survival Manual product folder",
+    "status": "pending",
+    "agent_role": "repo-worker",
+    "branch": "product/first-ai-tool-survival-manual",
     "requires_human_review": true
   }
 ]
