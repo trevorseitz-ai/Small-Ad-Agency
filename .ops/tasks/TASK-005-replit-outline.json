@@ -4,7 +4,7 @@
   "phase": "replit-outline",
   "agent_role": "repo-worker",
   "branch": "outline/replit-survival-manual",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     "products/replit-survival-manual/outline.md",
@@ -87,5 +87,5 @@
   ],
   "expected_output": "A TASK-005 definition that can later guide creation of The Replit Survival Manual outline.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-005-replit-outline.json.",
-  "notes": "This task defines the outline phase only. It does not draft the outline yet."
+  "notes": "The outline edit phase is complete and awaiting human review."
 }
