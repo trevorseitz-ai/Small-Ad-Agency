@@ -68,9 +68,15 @@
 - **Notes**: Defining the next task card before Chapter 1 drafting begins.
 
 ### Gate: Replit Chapter 1 Draft
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `draft/replit-chapter-1`
 - **Notes**: Initial Chapter 1 draft created for The Replit Survival Manual.
+
+### Gate: Replit Chapter 2 Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-007-replit-chapter-2`
+- **Notes**: Defining the next task card before Chapter 2 drafting begins.
+
 
 
 
