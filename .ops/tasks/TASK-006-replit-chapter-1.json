@@ -4,7 +4,7 @@
   "phase": "replit-chapter-1-draft",
   "agent_role": "repo-worker",
   "branch": "draft/replit-chapter-1",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     "products/replit-survival-manual/draft.md",
@@ -90,5 +90,5 @@
   ],
   "expected_output": "A TASK-006 definition that can later guide drafting Chapter 1 of The Replit Survival Manual.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-006-replit-chapter-1.json.",
-  "notes": "This task defines the Chapter 1 drafting phase only. It does not draft Chapter 1 yet."
+  "notes": "The Chapter 1 draft phase is complete and awaiting human review."
 }
