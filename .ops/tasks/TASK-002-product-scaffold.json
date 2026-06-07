@@ -4,7 +4,7 @@
   "phase": "product-scaffold",
   "agent_role": "repo-worker",
   "branch": "scaffold/product-system-v1",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     "products/.gitkeep",
@@ -85,5 +85,5 @@
   "expected_output": "A TASK-002 definition that can later guide creation of the reusable product scaffold.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-002-product-scaffold.json.",
   "human_review_required": true,
-  "notes": "This task defines the Product Scaffold phase only. It does not create the scaffold itself."
+  "notes": "The edit phase is complete and awaiting human review."
 }
