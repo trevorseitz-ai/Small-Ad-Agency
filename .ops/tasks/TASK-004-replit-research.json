@@ -1,0 +1,88 @@
+{
+  "task_id": "TASK-004",
+  "project_id": "small-ad-agency",
+  "phase": "replit-research",
+  "agent_role": "research",
+  "branch": "research/replit-survival-manual",
+  "status": "pending",
+  "risk_level": "medium",
+  "allowed_files": [
+    "products/replit-survival-manual/research.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-004-replit-research.json"
+  ],
+  "forbidden_files": [
+    "README.md",
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json",
+    "strategy/agency-scope.md",
+    "templates/product-template/metadata.json",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/outline.md",
+    "products/replit-survival-manual/draft.md",
+    "products/replit-survival-manual/final.md",
+    "products/replit-survival-manual/checklist.md",
+    "products/replit-survival-manual/sales-page.md",
+    "products/replit-survival-manual/changelog.md"
+  ],
+  "source_files": [
+    ".ops/agent-playbook.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-003-first-product.json",
+    "strategy/agency-scope.md",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/research.md"
+  ],
+  "allowed_actions": [
+    "research official Replit sources",
+    "update research.md",
+    "update current-state",
+    "update gate-log",
+    "update task queue status",
+    "update task file status",
+    "report diff",
+    "report status"
+  ],
+  "forbidden_actions": [
+    "draft manual content",
+    "edit outline",
+    "edit metadata",
+    "edit sales page",
+    "create build scripts",
+    "install packages",
+    "generate PDF",
+    "generate EPUB",
+    "generate ZIP",
+    "mark product as Published",
+    "commit without approval",
+    "merge without approval"
+  ],
+  "requires_report_only_first": true,
+  "report_required": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "diff_required": true,
+  "status_required": true,
+  "pr_required": true,
+  "human_review_required": true,
+  "success_criteria": [
+    "TASK-004 defines research only",
+    "Task restricts edits to research.md and ops state files",
+    "Task requires official Replit sources where possible",
+    "Task separates verified facts from author recommendations",
+    "Task does not draft manual copy",
+    "Task does not change metadata status to Published"
+  ],
+  "commands_to_run": [
+    "git status",
+    "git diff --unified=220 -- .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-004-replit-research.json"
+  ],
+  "expected_output": "A TASK-004 definition that can later guide official-source research for The Replit Survival Manual.",
+  "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-004-replit-research.json.",
+  "notes": "This task defines the research phase only. It does not perform research yet."
+}
