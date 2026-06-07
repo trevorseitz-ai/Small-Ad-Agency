@@ -48,8 +48,14 @@
 - **Notes**: Defining the next task card before official-source research begins.
 
 ### Gate: Replit Research
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `research/replit-survival-manual`
 - **Notes**: Official-source research completed and documented in research.md.
+
+### Gate: Replit Outline Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-005-replit-outline`
+- **Notes**: Defining the next task card before manual outlining begins.
+
 
 

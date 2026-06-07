@@ -26,9 +26,17 @@
   {
     "task_id": "TASK-004",
     "title": "Research The Replit Survival Manual",
-    "status": "in_review",
+    "status": "completed",
     "agent_role": "research",
     "branch": "research/replit-survival-manual",
+    "requires_human_review": true
+  },
+  {
+    "task_id": "TASK-005",
+    "title": "Outline The Replit Survival Manual",
+    "status": "pending",
+    "agent_role": "writer",
+    "branch": "outline/replit-survival-manual",
     "requires_human_review": true
   }
 ]
