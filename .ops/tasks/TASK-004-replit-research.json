@@ -4,7 +4,7 @@
   "phase": "replit-research",
   "agent_role": "research",
   "branch": "research/replit-survival-manual",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     "products/replit-survival-manual/research.md",
@@ -84,5 +84,5 @@
   ],
   "expected_output": "A TASK-004 definition that can later guide official-source research for The Replit Survival Manual.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-004-replit-research.json.",
-  "notes": "This task defines the research phase only. It does not perform research yet."
+  "notes": "The research phase is complete and awaiting human review."
 }
