@@ -1,9 +1,9 @@
 {
   "active_project": "small-ad-agency",
-  "current_phase": "replit-chapter-1-draft",
-  "current_branch": "draft/replit-chapter-1",
-  "last_completed_gate": "Replit Chapter 1 Task Definition",
-  "next_task": "TASK-006 awaiting human review",
+  "current_phase": "replit-chapter-2-task-definition",
+  "current_branch": "ops/task-007-replit-chapter-2",
+  "last_completed_gate": "Replit Chapter 1 Draft",
+  "next_task": "TASK-007: Draft Replit manual Chapter 2",
   "blocked": false,
   "requires_human_review": true
 }

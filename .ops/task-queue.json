@@ -42,9 +42,17 @@
   {
     "task_id": "TASK-006",
     "title": "Draft Replit manual Chapter 1",
-    "status": "in_review",
+    "status": "completed",
     "agent_role": "repo-worker",
     "branch": "draft/replit-chapter-1",
+    "requires_human_review": true
+  },
+  {
+    "task_id": "TASK-007",
+    "title": "Draft Replit manual Chapter 2",
+    "status": "pending",
+    "agent_role": "repo-worker",
+    "branch": "draft/replit-chapter-2",
     "requires_human_review": true
   }
 ]
