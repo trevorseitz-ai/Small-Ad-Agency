@@ -1,0 +1,91 @@
+{
+  "task_id": "TASK-005",
+  "project_id": "small-ad-agency",
+  "phase": "replit-outline",
+  "agent_role": "repo-worker",
+  "branch": "outline/replit-survival-manual",
+  "status": "pending",
+  "risk_level": "medium",
+  "allowed_files": [
+    "products/replit-survival-manual/outline.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-005-replit-outline.json"
+  ],
+  "forbidden_files": [
+    "README.md",
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json",
+    "strategy/agency-scope.md",
+    "templates/product-template/metadata.json",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/research.md",
+    "products/replit-survival-manual/draft.md",
+    "products/replit-survival-manual/final.md",
+    "products/replit-survival-manual/checklist.md",
+    "products/replit-survival-manual/sales-page.md",
+    "products/replit-survival-manual/changelog.md"
+  ],
+  "source_files": [
+    ".ops/agent-playbook.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-004-replit-research.json",
+    "strategy/agency-scope.md",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/research.md",
+    "products/replit-survival-manual/outline.md"
+  ],
+  "allowed_actions": [
+    "create outline structure",
+    "update outline.md",
+    "update current-state",
+    "update gate-log",
+    "update task queue status",
+    "update task file status",
+    "report diff",
+    "report status"
+  ],
+  "forbidden_actions": [
+    "draft full manual content",
+    "perform current web research",
+    "edit research findings",
+    "edit metadata",
+    "edit sales page",
+    "create build scripts",
+    "install packages",
+    "generate PDF",
+    "generate EPUB",
+    "generate ZIP",
+    "mark product as Published",
+    "commit without approval",
+    "merge without approval"
+  ],
+  "requires_report_only_first": true,
+  "report_required": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "diff_required": true,
+  "status_required": true,
+  "pr_required": true,
+  "human_review_required": true,
+  "success_criteria": [
+    "TASK-005 defines outline creation only",
+    "Task restricts edits to outline.md and ops state files",
+    "Task uses research.md as source context",
+    "Task does not draft manual copy",
+    "Task does not perform new research",
+    "Task does not change metadata status to Published",
+    "Task keeps unresolved research items out of final claims"
+  ],
+  "commands_to_run": [
+    "git status",
+    "git diff --unified=220 -- .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-005-replit-outline.json"
+  ],
+  "expected_output": "A TASK-005 definition that can later guide creation of The Replit Survival Manual outline.",
+  "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-005-replit-outline.json.",
+  "notes": "This task defines the outline phase only. It does not draft the outline yet."
+}
