@@ -1,9 +1,9 @@
 {
   "active_project": "small-ad-agency",
-  "current_phase": "replit-research-task-definition",
-  "current_branch": "ops/task-004-replit-research",
-  "last_completed_gate": "First Product Setup",
-  "next_task": "TASK-004: Research The Replit Survival Manual",
+  "current_phase": "replit-research",
+  "current_branch": "research/replit-survival-manual",
+  "last_completed_gate": "Replit Research Task Definition",
+  "next_task": "TASK-004 awaiting human review",
   "blocked": false,
   "requires_human_review": true
 }

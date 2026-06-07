@@ -43,7 +43,13 @@
 - **Notes**: Replit Survival Manual product folder created with setup placeholders only.
 
 ### Gate: Replit Research Task Definition
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-004-replit-research`
 - **Notes**: Defining the next task card before official-source research begins.
+
+### Gate: Replit Research
+- **Status**: In Review
+- **Branch**: `research/replit-survival-manual`
+- **Notes**: Official-source research completed and documented in research.md.
+
 
