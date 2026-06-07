@@ -83,9 +83,14 @@
 - **Notes**: Initial Chapter 2 draft created for The Replit Survival Manual.
 
 ### Gate: Reviewer and Fact-Checker Task Definition
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-008-reviewer-fact-checker`
 - **Notes**: Defining the next ops upgrade before additional chapter drafting.
+
+### Gate: Reviewer and Fact-Checker Workflow
+- **Status**: In Review
+- **Branch**: `ops/task-008-reviewer-fact-checker`
+- **Notes**: Reviewer, fact-checker, and human approval workflow added to ops playbook and task template.
 
 
 

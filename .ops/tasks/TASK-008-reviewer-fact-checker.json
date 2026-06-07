@@ -4,7 +4,7 @@
   "phase": "reviewer-fact-checker-workflow",
   "agent_role": "orchestrator",
   "branch": "ops/task-008-reviewer-fact-checker",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     ".ops/agent-playbook.md",
@@ -62,6 +62,16 @@
   "approval_required_before_edit": true,
   "approval_required_before_commit": true,
   "approval_required_before_merge": true,
+  "reviewer_approval_required": true,
+  "fact_checker_required": false,
+  "human_content_gate": false,
+  "human_approval_required_before_commit": true,
+  "reviewer_agent_id": null,
+  "fact_checker_agent_id": null,
+  "repo_worker_agent_id": null,
+  "reviewer_decision": null,
+  "fact_checker_decision": null,
+  "human_decision": null,
   "diff_required": true,
   "status_required": true,
   "pr_required": true,
@@ -82,5 +92,5 @@
   ],
   "expected_output": "A TASK-008 definition that can later guide updates to the reviewer and fact-checker gate workflow.",
   "rollback_plan": "Revert .ops/agent-playbook.md, .ops/task-template.json, .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-008-reviewer-fact-checker.json.",
-  "notes": "This task defines the reviewer and fact-checker gate workflow only. It does not create scripts or edit product content."
+  "notes": "The reviewer and fact-checker workflow edit phase is complete and awaiting human review."
 }

@@ -58,7 +58,7 @@
   {
     "task_id": "TASK-008",
     "title": "Define reviewer and fact-checker gate workflow",
-    "status": "pending",
+    "status": "in_review",
     "agent_role": "orchestrator",
     "branch": "ops/task-008-reviewer-fact-checker",
     "requires_human_review": true
