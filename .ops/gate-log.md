@@ -38,6 +38,12 @@
 - **Notes**: Correcting TASK-003 to use the real first product folder name before product setup.
 
 ### Gate: First Product Setup
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `product/replit-survival-manual`
 - **Notes**: Replit Survival Manual product folder created with setup placeholders only.
+
+### Gate: Replit Research Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-004-replit-research`
+- **Notes**: Defining the next task card before official-source research begins.
+
