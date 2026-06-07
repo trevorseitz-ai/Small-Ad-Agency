@@ -58,9 +58,15 @@
 - **Notes**: Defining the next task card before manual outlining begins.
 
 ### Gate: Replit Outline
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `outline/replit-survival-manual`
 - **Notes**: Initial outline structure created for The Replit Survival Manual.
+
+### Gate: Replit Chapter 1 Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-006-replit-chapter-1`
+- **Notes**: Defining the next task card before Chapter 1 drafting begins.
+
 
 
 
