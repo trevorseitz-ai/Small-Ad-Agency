@@ -32,7 +32,7 @@
 - **Branch**: `scaffold/product-system-v1`
 - **Notes**: Reusable product folder and template scaffold created for professional mini guide/workbook/manual products.
 
-### Gate: First Product Task Definition
+### Gate: First Product Task Correction
 - **Status**: In Progress
-- **Branch**: `ops/task-003-first-product`
-- **Notes**: Defining the next task card before creating the first real AI Tool Survival Manual product folder.
+- **Branch**: `ops/task-003-replit-product`
+- **Notes**: Correcting TASK-003 to use the real first product folder name before product setup.

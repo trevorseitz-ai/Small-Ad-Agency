@@ -17,10 +17,10 @@
   },
   {
     "task_id": "TASK-003",
-    "title": "Create first AI Tool Survival Manual product folder",
+    "title": "Create Replit Survival Manual product folder",
     "status": "pending",
     "agent_role": "repo-worker",
-    "branch": "product/first-ai-tool-survival-manual",
+    "branch": "product/replit-survival-manual",
     "requires_human_review": true
   }
 ]

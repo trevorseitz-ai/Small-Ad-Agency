@@ -3,19 +3,19 @@
   "project_id": "small-ad-agency",
   "phase": "first-product-setup",
   "agent_role": "repo-worker",
-  "branch": "product/first-ai-tool-survival-manual",
+  "branch": "product/replit-survival-manual",
   "status": "pending",
   "risk_level": "medium",
   "allowed_files": [
-    "products/first-ai-tool-survival-manual/metadata.json",
-    "products/first-ai-tool-survival-manual/research.md",
-    "products/first-ai-tool-survival-manual/outline.md",
-    "products/first-ai-tool-survival-manual/draft.md",
-    "products/first-ai-tool-survival-manual/final.md",
-    "products/first-ai-tool-survival-manual/checklist.md",
-    "products/first-ai-tool-survival-manual/sales-page.md",
-    "products/first-ai-tool-survival-manual/changelog.md",
-    "products/first-ai-tool-survival-manual/assets/.gitkeep",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/research.md",
+    "products/replit-survival-manual/outline.md",
+    "products/replit-survival-manual/draft.md",
+    "products/replit-survival-manual/final.md",
+    "products/replit-survival-manual/checklist.md",
+    "products/replit-survival-manual/sales-page.md",
+    "products/replit-survival-manual/changelog.md",
+    "products/replit-survival-manual/assets/.gitkeep",
     ".ops/current-state.json",
     ".ops/gate-log.md",
     ".ops/task-queue.json",
@@ -82,19 +82,19 @@
   "status_required": true,
   "pr_required": true,
   "success_criteria": [
-    "TASK-003 defines first product folder setup only",
+    "TASK-003 creates the first real product folder at products/replit-survival-manual/",
+    "metadata.json has id set to replit-survival-manual",
+    "metadata.json status is Setup or Planning, not Published",
     "Task does not draft the manual",
     "Task does not perform research yet",
-    "Task does not create scripts or build outputs",
-    "Task copies the product-template structure into a real product folder later",
-    "Task keeps metadata status as Planning or Setup, not Published"
+    "Task does not create scripts or build outputs"
   ],
   "commands_to_run": [
     "git status",
     "git diff --unified=220 -- .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-003-first-product.json"
   ],
-  "expected_output": "A TASK-003 definition that can later guide creation of the first real product folder.",
+  "expected_output": "A TASK-003 definition that can later guide creation of the Replit Survival Manual product folder.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-003-first-product.json.",
   "human_review_required": true,
-  "notes": "This task defines first product setup only. It does not create the product folder yet."
+  "notes": "TASK-003 was corrected after report-only review to use products/replit-survival-manual/ instead of a generic first-ai-tool-survival-manual folder."
 }
