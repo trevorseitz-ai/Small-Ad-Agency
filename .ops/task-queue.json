@@ -10,7 +10,7 @@
   {
     "task_id": "TASK-002",
     "title": "Create reusable product scaffold",
-    "status": "pending",
+    "status": "in_review",
     "agent_role": "repo-worker",
     "branch": "scaffold/product-system-v1",
     "requires_human_review": true

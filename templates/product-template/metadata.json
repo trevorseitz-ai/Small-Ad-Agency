@@ -1,0 +1,21 @@
+{
+  "id": "PROD-TEMPLATE",
+  "title": "Placeholder Template Title",
+  "subtitle": "Placeholder Template Subtitle",
+  "series": "Placeholder Series Name",
+  "version": "0.1.0",
+  "product_type": "guide|workbook|manual",
+  "target_tool_or_topic": "Placeholder Topic",
+  "audience": "Placeholder Target Audience",
+  "promise": "Placeholder Core Customer Promise",
+  "pricing": {
+    "currency": "USD",
+    "amount": 9.99
+  },
+  "tags": [
+    "template",
+    "scaffold"
+  ],
+  "status": "Template",
+  "last_reviewed": "2026-06-06"
+}
