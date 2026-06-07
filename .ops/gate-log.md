@@ -18,6 +18,11 @@
 - **Notes**: Creating first reusable task queue item for agent-guided work.
 
 ### Gate: Agency Scope
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `strategy/agency-scope`
 - **Notes**: Strategy file drafted for professional mini guide/workbook/manual product lane.
+
+### Gate: Product Scaffold Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-002-product-scaffold`
+- **Notes**: Defining the next task card before scaffold creation.

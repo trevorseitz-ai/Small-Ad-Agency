@@ -4,7 +4,7 @@
   "phase": "agency-scope",
   "agent_role": "orchestrator",
   "branch": "strategy/agency-scope",
-  "status": "in_review",
+  "status": "completed",
   "risk_level": "low",
   "allowed_files": [
     ".ops/current-state.json",
@@ -65,5 +65,5 @@
   "expected_output": "A report-only plan first. After approval, a strategy/agency-scope.md file and updated ops state.",
   "rollback_plan": "Revert .ops/task-queue.json, .ops/tasks/TASK-001-define-agency-scope.json, .ops/current-state.json, .ops/gate-log.md, and strategy/agency-scope.md.",
   "human_review_required": true,
-  "notes": "The edit phase is complete and awaiting human review."
+  "notes": "Agency scope completed and merged. Product lane selected: professional mini guide/workbook/manual products, with AI Tool Survival Manuals as the first sub-lane."
 }

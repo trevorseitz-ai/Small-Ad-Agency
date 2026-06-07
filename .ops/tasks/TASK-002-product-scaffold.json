@@ -1,0 +1,89 @@
+{
+  "task_id": "TASK-002",
+  "project_id": "small-ad-agency",
+  "phase": "product-scaffold",
+  "agent_role": "repo-worker",
+  "branch": "scaffold/product-system-v1",
+  "status": "pending",
+  "risk_level": "medium",
+  "allowed_files": [
+    "products/.gitkeep",
+    "products/README.md",
+    "templates/.gitkeep",
+    "templates/README.md",
+    "templates/product-template/metadata.json",
+    "templates/product-template/research.md",
+    "templates/product-template/outline.md",
+    "templates/product-template/draft.md",
+    "templates/product-template/final.md",
+    "templates/product-template/checklist.md",
+    "templates/product-template/sales-page.md",
+    "templates/product-template/changelog.md",
+    "templates/product-template/assets/.gitkeep",
+    "brand/.gitkeep",
+    "brand/README.md",
+    "dist/.gitkeep",
+    "dist/README.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-002-product-scaffold.json"
+  ],
+  "forbidden_files": [
+    "README.md",
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json",
+    "strategy/agency-scope.md"
+  ],
+  "source_files": [
+    ".ops/agent-playbook.md",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-001-define-agency-scope.json",
+    "strategy/agency-scope.md"
+  ],
+  "allowed_actions": [
+    "create product scaffold folders",
+    "create product template files",
+    "update current-state",
+    "update gate-log",
+    "update task queue status",
+    "update task file status",
+    "report diff",
+    "report status"
+  ],
+  "forbidden_actions": [
+    "create build scripts",
+    "install packages",
+    "generate PDF",
+    "generate EPUB",
+    "generate ZIP",
+    "mark anything as Published",
+    "commit without approval",
+    "merge without approval"
+  ],
+  "requires_report_only_first": true,
+  "report_required": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "diff_required": true,
+  "status_required": true,
+  "pr_required": true,
+  "success_criteria": [
+    "Product scaffold task defines allowed folder and template creation only",
+    "Task does not generate actual product content",
+    "Task does not create scripts or build outputs",
+    "Task protects strategy and playbook files from edits",
+    "Task supports professional mini guide/workbook/manual products"
+  ],
+  "commands_to_run": [
+    "git status",
+    "git diff --unified=220 -- .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-002-product-scaffold.json"
+  ],
+  "expected_output": "A TASK-002 definition that can later guide creation of the reusable product scaffold.",
+  "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-002-product-scaffold.json.",
+  "human_review_required": true,
+  "notes": "This task defines the Product Scaffold phase only. It does not create the scaffold itself."
+}
