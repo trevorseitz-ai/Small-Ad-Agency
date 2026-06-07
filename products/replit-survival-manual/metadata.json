@@ -1,0 +1,24 @@
+{
+  "id": "replit-survival-manual",
+  "title": "The Replit Survival Manual",
+  "subtitle": "How to build and deploy apps without wasting credits",
+  "series": "AI Tool Survival Manuals",
+  "version": "0.1.0",
+  "product_type": "manual",
+  "target_tool_or_topic": "Replit Agent & Workspaces",
+  "audience": "beginner builders, low-budget indie founders, and students using Replit",
+  "promise": "Help beginners use Replit efficiently without wasting credits, compute, or money.",
+  "pricing": {
+    "currency": "USD",
+    "amount": 9.99
+  },
+  "tags": [
+    "replit",
+    "ai-agent",
+    "credit-saving",
+    "beginner-builders",
+    "survival-manual"
+  ],
+  "status": "Setup",
+  "last_reviewed": "2026-06-07"
+}

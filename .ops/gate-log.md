@@ -33,6 +33,11 @@
 - **Notes**: Reusable product folder and template scaffold created for professional mini guide/workbook/manual products.
 
 ### Gate: First Product Task Correction
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-003-replit-product`
 - **Notes**: Correcting TASK-003 to use the real first product folder name before product setup.
+
+### Gate: First Product Setup
+- **Status**: In Review
+- **Branch**: `product/replit-survival-manual`
+- **Notes**: Replit Survival Manual product folder created with setup placeholders only.

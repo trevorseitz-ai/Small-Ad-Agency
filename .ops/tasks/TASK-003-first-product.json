@@ -4,7 +4,7 @@
   "phase": "first-product-setup",
   "agent_role": "repo-worker",
   "branch": "product/replit-survival-manual",
-  "status": "pending",
+  "status": "in_review",
   "risk_level": "medium",
   "allowed_files": [
     "products/replit-survival-manual/metadata.json",
@@ -96,5 +96,5 @@
   "expected_output": "A TASK-003 definition that can later guide creation of the Replit Survival Manual product folder.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-003-first-product.json.",
   "human_review_required": true,
-  "notes": "TASK-003 was corrected after report-only review to use products/replit-survival-manual/ instead of a generic first-ai-tool-survival-manual folder."
+  "notes": "The edit phase is complete and awaiting human review."
 }
