@@ -1,0 +1,86 @@
+{
+  "task_id": "TASK-008",
+  "project_id": "small-ad-agency",
+  "phase": "reviewer-fact-checker-workflow",
+  "agent_role": "orchestrator",
+  "branch": "ops/task-008-reviewer-fact-checker",
+  "status": "pending",
+  "risk_level": "medium",
+  "allowed_files": [
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-008-reviewer-fact-checker.json"
+  ],
+  "forbidden_files": [
+    "README.md",
+    "strategy/agency-scope.md",
+    "products/replit-survival-manual/metadata.json",
+    "products/replit-survival-manual/research.md",
+    "products/replit-survival-manual/outline.md",
+    "products/replit-survival-manual/draft.md",
+    "products/replit-survival-manual/final.md",
+    "products/replit-survival-manual/checklist.md",
+    "products/replit-survival-manual/sales-page.md",
+    "products/replit-survival-manual/changelog.md"
+  ],
+  "source_files": [
+    ".ops/agent-playbook.md",
+    ".ops/task-template.json",
+    ".ops/current-state.json",
+    ".ops/gate-log.md",
+    ".ops/task-queue.json",
+    ".ops/tasks/TASK-007-replit-chapter-2.json"
+  ],
+  "allowed_actions": [
+    "update agent playbook with reviewer and fact-checker workflow",
+    "update task template with reviewer/fact-checker/human gate fields",
+    "update current-state",
+    "update gate-log",
+    "update task queue status",
+    "update task file status",
+    "report diff",
+    "report status"
+  ],
+  "forbidden_actions": [
+    "draft product content",
+    "edit product files",
+    "perform current web research",
+    "create build scripts",
+    "install packages",
+    "generate PDF",
+    "generate EPUB",
+    "generate ZIP",
+    "mark product as Published",
+    "commit without approval",
+    "merge without approval"
+  ],
+  "requires_report_only_first": true,
+  "report_required": true,
+  "approval_required_before_edit": true,
+  "approval_required_before_commit": true,
+  "approval_required_before_merge": true,
+  "diff_required": true,
+  "status_required": true,
+  "pr_required": true,
+  "human_review_required": true,
+  "success_criteria": [
+    "TASK-008 defines reviewer/process approval separately from human approval",
+    "TASK-008 defines fact-checker/truth approval separately from reviewer approval",
+    "Task template includes fields for reviewer_approval_required, fact_checker_required, human_content_gate, and human_approval_required_before_commit",
+    "Playbook defines when reviewer approval is enough",
+    "Playbook defines when fact-checker approval is required",
+    "Playbook defines when human approval is required",
+    "No product content is changed",
+    "No automation scripts are created"
+  ],
+  "commands_to_run": [
+    "git status",
+    "git diff --unified=220 -- .ops/agent-playbook.md .ops/task-template.json .ops/current-state.json .ops/gate-log.md .ops/task-queue.json .ops/tasks/TASK-008-reviewer-fact-checker.json"
+  ],
+  "expected_output": "A TASK-008 definition that can later guide updates to the reviewer and fact-checker gate workflow.",
+  "rollback_plan": "Revert .ops/agent-playbook.md, .ops/task-template.json, .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-008-reviewer-fact-checker.json.",
+  "notes": "This task defines the reviewer and fact-checker gate workflow only. It does not create scripts or edit product content."
+}

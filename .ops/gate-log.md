@@ -78,9 +78,14 @@
 - **Notes**: Defining the next task card before Chapter 2 drafting begins.
 
 ### Gate: Replit Chapter 2 Draft
-- **Status**: In Review
+- **Status**: Completed
 - **Branch**: `draft/replit-chapter-2`
 - **Notes**: Initial Chapter 2 draft created for The Replit Survival Manual.
+
+### Gate: Reviewer and Fact-Checker Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-008-reviewer-fact-checker`
+- **Notes**: Defining the next ops upgrade before additional chapter drafting.
 
 
 
