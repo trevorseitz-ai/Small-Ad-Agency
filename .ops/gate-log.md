@@ -53,9 +53,15 @@
 - **Notes**: Official-source research completed and documented in research.md.
 
 ### Gate: Replit Outline Task Definition
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-005-replit-outline`
 - **Notes**: Defining the next task card before manual outlining begins.
+
+### Gate: Replit Outline
+- **Status**: In Review
+- **Branch**: `outline/replit-survival-manual`
+- **Notes**: Initial outline structure created for The Replit Survival Manual.
+
 
 
 

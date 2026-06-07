@@ -33,9 +33,9 @@
   },
   {
     "task_id": "TASK-005",
-    "title": "Outline The Replit Survival Manual",
-    "status": "pending",
-    "agent_role": "writer",
+    "title": "Create The Replit Survival Manual outline",
+    "status": "in_review",
+    "agent_role": "repo-worker",
     "branch": "outline/replit-survival-manual",
     "requires_human_review": true
   }
