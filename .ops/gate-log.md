@@ -102,4 +102,9 @@
 - **Branch**: `ops/task-010-external-review-packets`
 - **Notes**: Defining the next ops task for file-based external reviewer and fact-checker handoff.
 
+### Gate: External Review Packet Task Correction
+- **Status**: In Progress
+- **Branch**: `ops/task-010-allowed-files-correction`
+- **Notes**: Correcting TASK-010 allowed_files so the review packet workflow files can be created.
+
 
