@@ -20,7 +20,13 @@
     ".ops/current-state.json",
     ".ops/gate-log.md",
     ".ops/task-queue.json",
-    ".ops/tasks/TASK-010-external-review-packets.json"
+    ".ops/tasks/TASK-010-external-review-packets.json",
+    ".ops/review-packets/README.md",
+    ".ops/review-results/README.md",
+    ".ops/review-archive/README.md",
+    ".ops/templates/reviewer-packet-template.md",
+    ".ops/templates/fact-checker-packet-template.md",
+    ".ops/templates/review-result-template.md"
   ],
   "forbidden_files": [
     "README.md",
@@ -54,9 +60,6 @@
     "report status"
   ],
   "forbidden_actions": [
-    "create packet templates",
-    "create review result templates",
-    "create review folders",
     "create scripts",
     "install packages",
     "draft product content",
@@ -79,12 +82,9 @@
   "pr_required": true,
   "human_review_required": true,
   "success_criteria": [
-    "TASK-010 defines the external review packet workflow task only",
-    "Task does not create packet templates yet",
-    "Task does not create review result templates yet",
-    "Task does not create scripts",
-    "Task does not edit product files",
-    "Task prepares the next phase for file-based handoff between Antigravity and external LLM reviewers",
+    "TASK-010 permits creation of the file-based external review packet workflow",
+    "Task allows review packet folders, result folders, archive folder, and markdown templates",
+    "Task still forbids scripts, product edits, generated assets, package installs, and publishing actions",
     "Task preserves human approval before commit"
   ],
   "commands_to_run": [
@@ -93,5 +93,5 @@
   ],
   "expected_output": "A TASK-010 definition that can later guide creation of the external review packet workflow.",
   "rollback_plan": "Revert .ops/current-state.json, .ops/gate-log.md, .ops/task-queue.json, and .ops/tasks/TASK-010-external-review-packets.json.",
-  "notes": "This task defines the external review packet workflow only. It does not create templates, folders, scripts, or product content."
+  "notes": "TASK-010 was corrected after edit-phase halt to allow the intended review packet README and template files."
 }
