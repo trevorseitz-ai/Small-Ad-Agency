@@ -58,9 +58,17 @@
   {
     "task_id": "TASK-008",
     "title": "Define reviewer and fact-checker gate workflow",
-    "status": "in_review",
+    "status": "completed",
     "agent_role": "orchestrator",
     "branch": "ops/task-008-reviewer-fact-checker",
+    "requires_human_review": true
+  },
+  {
+    "task_id": "TASK-009",
+    "title": "Draft Replit manual Chapter 3",
+    "status": "pending",
+    "agent_role": "repo-worker",
+    "branch": "draft/replit-chapter-3",
     "requires_human_review": true
   }
 ]
