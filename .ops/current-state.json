@@ -1,9 +1,9 @@
 {
   "active_project": "small-ad-agency",
-  "current_phase": "replit-chapter-3-task-definition",
-  "current_branch": "ops/task-009-replit-chapter-3",
-  "last_completed_gate": "Reviewer and Fact-Checker Workflow",
-  "next_task": "TASK-009: Draft Replit manual Chapter 3",
+  "current_phase": "external-review-packet-task-definition",
+  "current_branch": "ops/task-010-external-review-packets",
+  "last_completed_gate": "Replit Chapter 3 Task Definition",
+  "next_task": "TASK-010: Define external review packet workflow",
   "blocked": false,
   "requires_human_review": true
 }

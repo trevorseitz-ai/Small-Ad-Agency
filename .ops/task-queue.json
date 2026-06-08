@@ -66,9 +66,17 @@
   {
     "task_id": "TASK-009",
     "title": "Draft Replit manual Chapter 3",
-    "status": "pending",
+    "status": "completed",
     "agent_role": "repo-worker",
     "branch": "draft/replit-chapter-3",
+    "requires_human_review": true
+  },
+  {
+    "task_id": "TASK-010",
+    "title": "Define external review packet workflow",
+    "status": "pending",
+    "agent_role": "orchestrator",
+    "branch": "ops/task-010-external-review-packets",
     "requires_human_review": true
   }
 ]
