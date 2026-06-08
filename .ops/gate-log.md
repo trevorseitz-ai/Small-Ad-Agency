@@ -93,8 +93,13 @@
 - **Notes**: Reviewer, fact-checker, and human approval workflow added to ops playbook and task template.
 
 ### Gate: Replit Chapter 3 Task Definition
-- **Status**: In Progress
+- **Status**: Completed
 - **Branch**: `ops/task-009-replit-chapter-3`
 - **Notes**: Defining the next task card before Chapter 3 drafting begins, using reviewer and fact-checker gates.
+
+### Gate: External Review Packet Task Definition
+- **Status**: In Progress
+- **Branch**: `ops/task-010-external-review-packets`
+- **Notes**: Defining the next ops task for file-based external reviewer and fact-checker handoff.
 
 
